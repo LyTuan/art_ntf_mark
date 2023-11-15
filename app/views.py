@@ -1,16 +1,13 @@
-import datetime
 import json
-
+import datetime
 import requests
+from app import app
 from flask import render_template, redirect, request
 
-from app import app
-
-# The node with which our application interacts, there can be multiple
-# such nodes as well.
 CONNECTED_NODE_ADDRESS = "http://127.0.0.1:8000"
 
 posts = []
+
 
 def fetch_posts():
     """
