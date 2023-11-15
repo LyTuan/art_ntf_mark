@@ -11,7 +11,7 @@ Please read the [step-by-step implementation tutorial](https://www.ibm.com/devel
 Clone the project,
 
 ```sh
-$ git clone https://github.com/satwikkansal/python_blockchain_app.git
+$ git clone https://github.com/LyTuan/art_ntf_mark.git
 ```
 
 Install the dependencies,
